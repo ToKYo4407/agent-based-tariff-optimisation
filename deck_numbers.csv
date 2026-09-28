@@ -1,0 +1,62 @@
+,value
+acn_raw_sessions,14999
+acn_clean_sessions,14629
+acn_stations,54
+acn_start,2018-04-25
+acn_end,2018-12-15
+sz_zones,247
+sz_piles,18061
+sz_dynamic_zones,57
+sz_mean_util_pct,28.0
+sz_congested_hours_pct,0.9
+acn_peak_slot,Wed 8:00 (554 sessions)
+acn_peak_hours,8:00 (busiest arrival hour)
+acn_median_kwh,7.3
+acn_median_charge_h,2.2
+acn_median_stay_h,4.6
+acn_weekend_share_pct,17.5
+capacity_vehicles,48.0
+train_hours,4371
+test_hours,1093
+test_period,2018-10-31 to 2018-12-15
+best_model,XGBoost (tuned)
+fc_RMSE,1.549
+fc_MAE,1.016
+fc_R2,0.715
+fc_rmse_gain_vs_naive_pct,28.7
+util_fc_MAE_pp,3.5
+util_fc_R2,0.966
+congestion_AUC,0.988
+shap_top5,"s_lag168, s_lag1, hour_cos, s_lag24, trend"
+elasticity_est,0.52
+elasticity_CI95,0.48 to 0.56
+rev_baseline,233361
+cong_baseline_pct,4.5
+util_baseline_pct,24.8
+offpeak_baseline,149
+policies_evaluated,203
+winwin_policies,28
+discount_option,"discount 0.95x -> off-peak +2.6%, revenue +1.2%, congestion 3.8%"
+revmax_policy,high 1.35x / med 1.20x / discount 1.00x
+revmax_rev_gain_pct,2.2
+revmax_cong_pct,3.6
+revmax_offpeak_gain_pct,0.0
+revmax_peak_util_p99,83.6
+chosen_policy,high 1.35x / med 1.20x / discount 1.00x
+chosen_rev_gain_pct,2.2
+chosen_cong_pct,3.6
+chosen_offpeak_gain_pct,0.0
+chosen_peak_util_p99,83.6
+chosen_rev,238560
+chosen_mean_util_pct,24.5
+chosen_rs_per_kwh,15.48
+sens_rev_range,0.0% to 3.4%
+sens_cong_never_worse,True
+station_mean_util_pct,30.9
+segments,"{'Medium': 24, 'High': 15, 'Low': 15}"
+agent_eps_start,0.1
+agent_eps_final,0.46
+agent_days_to_within_10pct,
+agent_final_policy,high 1.35x / med 1.20x / discount 1.00x
+agent_matches_oracle,True
+agent_eps_error_pct,11.1
